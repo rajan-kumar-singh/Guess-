@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <!--* Header -->
+      <section class="header">
+        <button class="btn restart">Restart</button>
+        <p class="level">< 1 to 20 ></p>
+        <h1 class="heading">Guess The Number</h1>
+        <p class="number">12</p>
+      </section>
+      <!--* Screen -->
+      <section class="screen">
+        <div>
+          <p class="message">Game Status...</p>
+          <p class="chance-el">Chances <span class="chance">20</span></p>
+          <p part="hScore-el">HighScore <span class="hScore">00</span></p>
+        </div>
+        <div class="input-tab">
+          <input type="number" class="guess" min="1" max="20" />
+          <button class="btn check">Check</button>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
